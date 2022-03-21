@@ -17,3 +17,13 @@ git remote add origin https://github.com/lolagrb/feuillederoute.git
 
 5. pousse ton code a distance
 git push -u origin
+
+6. retourne sur ton master
+git checkout master 
+
+7. recupere les avancées de tes collegues 
+git pull 
+
+8. créer une nouvelle branche et recommence 
+git chekcout -b "nom de ta branche"
+
