@@ -21,5 +21,14 @@ git push
 6. creer une nouvelle branche
 git checkout -b nouvelle_branche
 
-7. changer de branches
-git checkout "nom de branche"
+[tout le code en haut]
+
+7. retourne sur ton master
+git checkout master 
+
+8. recupere les avancées de tes collegues 
+git pull 
+
+9. créer une nouvelle branche et recommence 
+git chekcout -b "nom de ta branche"
+
