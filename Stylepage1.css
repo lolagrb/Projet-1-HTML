@@ -6,3 +6,7 @@
 header {
     font-family: "ballpark";
 }
+
+body {
+    background-color : url("images/fond_jaune");
+}
