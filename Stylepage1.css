@@ -1,12 +1,61 @@
 @font-face {
     font-family: "ballpark";
-    src:url("polices/ballpark.eot");
-}
+    src:url("polices/ballpark.eot") format("eot");
+    src:url("polices/ballpark.ttf") format("ttf");
+    src:url("polices/ballpark.svg") format("svg");
+    src:url("polices/ballpark.woff") format("woff");
+   }
 
-header {
+@font-face {
+    font-family : "dayrom";
+    src:url("polices/dayrom.eot") format("eot");
+    src:url("polices/dayrom.ttf") format("ttf");
+    src:url("polices/dayrom.svg") format("svg");
+    src:url("polices/dayrom.woff") format("woff");
+}
+    
+
+.titre {
     font-family: "ballpark";
+    font-size : 2em;
 }
 
 body {
-    background-color : url("images/fond_jaune");
+    font-family: "dayrom";
+    background : url("images/fond_jaune.png");
 }
+
+nav a:hover{
+    color : red;
+}
+
+header {
+    display: flex;
+    background : url(images/separateur.png) repeat-x bottom ;
+    align-items:flex-end;
+}
+/* Comment mettre les éléments de navigation sur le côté à droite ?? */
+nav ul {
+    color:black;
+    display: flex-end;
+    flex-direction : row;
+}
+
+#titre_principal {
+    display : flex;
+    flex-direction: column;
+}
+
+#logo {
+    display : flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+#textlink {
+    color:black;
+}
+
+#textlink:hover{
+    color : red;
+}
+
