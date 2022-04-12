@@ -12,7 +12,7 @@
         <img src="images/zozor_logo.png" alt="logo"> 
         <span class="titre">Zozor</span>
       </div>
-    <p>Carnet de voyage</p>
+    <div>Carnet de voyage</div>
     </div>
     <nav>
       <ul>
@@ -25,18 +25,22 @@
     </nav> 
   </header>
 
-  <div>
-    <img src="images/sanfrancisco.jpg" alt="banniere">
-    <p>Retour sur mes vacances aux Etats-Unis...
-      Voir l'article
-    </p>
-    <img src="images/flecheblanchedroite.png" alt="redirection">
+  <div id="bridge">
+    <div id="bridge-image">
+      <div id="bridge-content">
+        <div>Retour sur mes vacances aux Etats-Unis...</div>
+        <button id="see-article">
+          Voir l'article
+          <img src="images/flecheblanchedroite.png" alt="redirection">
+        </button>
+      </div>
+    </div>
   </div>
 
   <section>
     <article>
       <p id="titre_secondaire">
-        <img src="images/ico_epingle.png" alt="img_epingle">
+        <img id="article-picture-logo" src="images/ico_epingle.png" alt="img_epingle">
         JE SUIS UN GRAND VOYAGEUR
       </p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non <a href="https://www.adviso.ca/" target="_blank"> <span id="textlink">kkkk</span></a> lorem.</p>
@@ -44,6 +48,7 @@
     <p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.</p>
    </article>
    <aside> 
+     <img id="bouton" src="images/bulle.png">
       <p id="titre_aside">À PROPOS DE L'AUTEUR</p>
       <p id="photo_zozor"> <img src="images/zozor_classe.png" alt="ane avec lunettes"></p>
       <p>Bien maigre, n'est-ce pas ? C'est pourquoi, aujourd'hui, j'ai décidé d'écrire ma biographie afin que vous sachiez qui je suis réellement.</p>
@@ -70,17 +75,21 @@
       <img src="images/photo4.jpg" alt="photo4">
      </div>
      <div>
-       <p></p> MES AMIS
-      <ul>
-        <li>Pupi le lapin</li>
-        <li>Mr Baobab</li>
-        <li>Kaiwaii</li>
-        <li>Perceval.eu</li>
-        <li>Belette</li>
-        <li>Le concombre masqué</li>
-        <li>Ptit prince</li>
-        <li>Mr Fan</li>
-      </ul>
+      <p>      MES AMIS</p>
+       <div  id="friends-footer">
+        <ul class="friend-list">
+          <li>Pupi le lapin</li>
+          <li>Mr Baobab</li>
+          <li>Kaiwaii</li>
+          <li>Perceval.eu</li>
+        </ul>
+        <ul class="friend-list">
+          <li>Belette</li>
+          <li>Le concombre masqué</li>
+          <li>Ptit prince</li>
+          <li>Mr Fan</li>
+        </ul>
+       </div>
      </div>
    </footer>
 
